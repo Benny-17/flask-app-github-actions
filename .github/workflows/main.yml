@@ -27,4 +27,6 @@ jobs:
       with:
         context: .
         push: true
+        tags: your-dockerhub-username/flask-demo:latest
+
         tags: bennypius/flask-app:v1
