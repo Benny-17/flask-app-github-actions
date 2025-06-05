@@ -3,6 +3,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello from Benny's ci/cd-demo!"
+    return "Hello from Benny's github actions-demo!"
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
